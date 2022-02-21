@@ -51,6 +51,7 @@ public class TestVod {
         response = client.getAcsResponse(request);
         System.out.println("playauth:"+response.getPlayAuth());
     }
+	
     // 根据视频id获取视频播放地址
     public static void getPlayUrl() throws Exception{
         //1 根据视频iD获取视频播放地址
